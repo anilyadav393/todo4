@@ -3,6 +3,9 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  overflow-x:hidden;
+  overflow-y:hidden;
+  overflow: hidden;
 }
 .modal {
   position: absolute;
@@ -15,6 +18,7 @@
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
 }
 
 .overlay {
@@ -24,6 +28,8 @@
   right: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
+  overflow-y:hidden;
+  overflow: hidden;
 }
 .img{
   justify-content: center;
